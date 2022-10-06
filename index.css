@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+/*很多會在前面先設定好所有的字形*/
+body{
+	margin:0px;
+	font-family:"Comic Sans MS",cursive;/*設字形*/
+	font-size:18px;	       
+}
+
+#banner{
+	height: 70px;
+	/*background-color: #ff0000;  /* 這個是背景顏色 */
+	
+}
+
+#menu{
+	height: 40px;
+	background-color: #ffff00;  /* 這個是背景顏色 */
+	
+}
+
+
+       
+
+
+#menu ul{    
+	margin:0;
+}
+
+
+
+#menu li{/*li是項目 左右的*/
+	display: inline;/*用一行的方式顯示*/
+	padding-left:15%;/*內距,這裡是單設定內距的左邊*/
+}
+
+#menu a{/*a是超連結*/
+	text-decoration:none;/*讓超連結的字沒有底線*/
+	
+	
+}
+
+
+#menu a:hover{/*hover + a 超連結應用:當滑鼠移至超連結時，不論是文字變色、位移、換背景都是利用 hover 達到*/
+	color:#00ff00;
+}
+
+
+#content{
+	
+	padding:1% 7%;/*1%和7%指的是content上下的內距和左右的內距*/
+	
+}
+
+#footer{
+	height: 100px;
+	background-color: #123456;  /* 這個是背景顏色 */
+	/*margin: 5%;  /*margin是外部距離,margin有分很多種，ex:margin-top就是單只一個div上面的距離*/
+    color:#ffffff;
+	padding:10px;
+	font-size:20px;
+	clear:both;
+	
+	text-align:center;  /*使字串置中*/
+	line-height:50px;   /*line-hight是行拒的意思*/
+	
+
+}
+
+
+#ad{/*廣告區*/
+	height:150px;
+	width:100%;
+}
+
+#ad img{
+	/*width:100%;*/
+	height:100%;
+	margin:auto;/*這兩行可使圖片置中*/
+	display:block;/*以一塊一塊的形式呈現*/
+}
+
+
+/*把ad分為三區(上面兩，這裡是左區的*/
+
+#left{
+	width:45%;	
+	float:left;
+}
+
+
+
+
+#left img{
+	width:100%;
+}
+
+#right{
+	width:45%;
+	float:left;
+}
+
+
+#right li {/*right li指的是右邊的項目*/
+	padding:10px;/*上下左右的內距*/
+	list-style-type:none;
+	border-bottom:1px solid #adadad;/*下滑線*/
+}
+
+
+#right a{/*right a指的是右邊的超連結的部分*/
+	text-decoration:none;
+	color:#adadad;
+}
+
+	
+
+
+/*設定info為放資料的地方*/
+.info{        /*因為我們info從id改成class，所以在css裡要把所有的 #info 改成 .info  */
+	
+	clear:both;
+}	
+
+
+.info .infoarea{
+	width:23%;
+	float:left;
+	padding:10px;
+	height:350px;
+}
+.info .infoarea img{
+	width:100%;
+}
+
+
+#banner img{
+	width:2%;
+	
+}
+
+.bannerleft img{  /*讓logo扶起來   也是可以用#bannerleft img 就是bannerleft這塊的圖片做調整  阿現在這樣的打法就是整塊直接搬*/
+	float:left;
+	
+}
+
+.bannerright img{
+	float:right;
+}
+
+.bannerleft{
+	padding:10px 20px;
+	
+	
+}
+.bannerright{
+	padding:10px 20px;
+}
+
+
+
+
+
+
+
+

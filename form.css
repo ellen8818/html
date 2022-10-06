@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lcc-input{
+	padding:8px;
+	display:block;
+	width:100%;
+}
+
+.lcc-border{
+	border:1px solid #cccccc;
+
+}
+
+.lcc-sand{
+	color:#000000;
+	background-color: #fdf5e6;
+}
+
+.lcc-radio{
+	width:24px;
+	height:24px;
+	top:10px;
+}
+
+.lcc-button{
+	color:#ffffff;
+	background-color: #795548;
+	border:none;/*沒有邊框*/
+	padding:8px 16px;
+}
